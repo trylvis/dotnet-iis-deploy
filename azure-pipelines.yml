@@ -16,7 +16,6 @@ stages:
   jobs:
      - job: 
        steps:  
-steps:
         - task: UseDotNet@2
           inputs:
             version: $(dotNetVersion)
