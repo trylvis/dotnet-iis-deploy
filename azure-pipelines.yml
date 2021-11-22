@@ -8,6 +8,7 @@ pool:
 
 variables:
   buildConfiguration: 'Release'
+  dotNetVersion: '6.0.x'
 
   
 stages:
